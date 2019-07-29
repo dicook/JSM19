@@ -122,8 +122,8 @@ Anderson (1931) Internal Factors Affecting Discontinuity Between Species.
 
 ]
 
-.green[*"Although well provided with distinguishing characteristics, Iris versicolor and Iris virginica seem to be under a special curse so far as their recognition in the herbarium is concerned."*] [Anderson, 1936 The Species Problem in Iris](https://http://biostor.org/reference/11559)
-
+> .green["Although well provided with distinguishing characteristics, Iris versicolor and Iris virginica seem to be under a special curse so far as their recognition in the herbarium is concerned."] [Anderson, 1936](https://http://biostor.org/reference/11559)
+ The Species Problem in Iris
 
 <br>
 *More than 50 pages long!*
@@ -133,12 +133,12 @@ Anderson (1931) Internal Factors Affecting Discontinuity Between Species.
 
 .pull-left[
 
-*"Although well provided with distinguishing characteristics, Iris versicolor and Iris virginica seem to be under a special curse so far as their recognition in the herbarium is concerned."* .yellow[Anderson], 1936 The Species Problem in Iris
+>"Although well provided with distinguishing characteristics, Iris versicolor and Iris virginica seem to be under a special curse so far as their recognition in the herbarium is concerned." .yellow[Anderson], 1936 The Species Problem in Iris
 ]
 --
 
 .pull-right[
-*"The sample of the third species given in Table I, Iris virginica, differs from the two other samples in not being taken from the same natural colony as they were."* .yellow[Fisher], 1936
+>"The sample of the third species given in Table I, Iris virginica, differs from the two other samples in not being taken from the same natural colony as they were." .yellow[Fisher], 1936
 
 ]
 ---
@@ -150,14 +150,14 @@ Anderson (1931) Internal Factors Affecting Discontinuity Between Species.
     - What was the original task/analysis? Is this the same as how it has been used since?
     - The new iris data using genomics
 - The very amazing visuals from Anderson's original paper
-- What does it mean to use the iris, and how to get into de-tox treatment
+- What does it mean to use the iris data, and how to get yourself into de-tox treatment
 
 
 ---
 class: middle
 
 .pull-left[
-`r anicon::nia("Would you like to grow your own irises? ", anitype="hover", color="#686CA9", speed="slow")` 
+`r anicon::nia("Would you like framed iris photos?", anitype="hover", color="#686CA9", speed="slow")` 
 
 `r anicon::nia("Stay tuned to take the quiz at the end of the presentation.", anitype="hover", color="#CFA118", speed="slow")` 
 ]
@@ -502,7 +502,7 @@ class: inverse-nopad
 
 ---
 
-*People have been using this data for demonstrating supervised classification for almost 100 years!*
+*People have been using this data for demonstrating supervised classification (and clustering and dimension reduction) for almost 100 years!*
 
 **Why has it stuck so long?**
 
