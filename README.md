@@ -1,3 +1,3 @@
-# Slides for JSM19
+# Slides for JSM 2019
 
-These are the slies for my talk on the origins of the iris data
+These are the slides for my talk on the origins of the iris data.
