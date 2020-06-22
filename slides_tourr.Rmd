@@ -333,17 +333,17 @@ class: inverse middle center
 
 .left-plot[
 
-```{r eval=FALSE}
+```{r runthis7, eval=FALSE}
 sphere1 <- sphere.hollow(p=4)$points %>% as_tibble()
+animate_xy(sphere1, axes="bottomleft")
+```
 
+```{r eval=FALSE}
 render_gif(sphere1, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "sphere4d_1.gif", frames=100, width=400, height=400)
 ```
 
-```{r runthis7, eval=FALSE}
-animate_xy(sphere1, axes="bottomleft")
-```
 
 Hollow
 
@@ -352,18 +352,18 @@ Hollow
 
 .right-plot[
 
-
+```{r runthis8, eval=FALSE}
+sphere2 <- sphere.solid.random(p=4)$points %>% as_tibble()
+animate_xy(sphere2, axes="bottomleft")
+```
 
 ```{r eval=FALSE}
-sphere2 <- sphere.solid.random(p=4)$points %>% as_tibble()
 render_gif(sphere2, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "sphere4d_2.gif", frames=100, width=400, height=400)
 ```
 
-```{r runthis8, eval=FALSE}
-animate_xy(sphere2, axes="bottomleft")
-```
+
 
 Solid
 
@@ -376,17 +376,17 @@ Solid
 
 .left-plot[
 
-```{r eval=FALSE}
+```{r runthis9, eval=FALSE}
 cube1 <- cube.face(p=4)$points %>% as_tibble()
+animate_xy(cube1, axes="bottomleft")
+```
 
+```{r eval=FALSE}
 render_gif(cube1, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "cube4d_1.gif", frames=100, width=400, height=400)
 ```
 
-```{r runthis9, eval=FALSE}
-animate_xy(cube1, axes="bottomleft")
-```
 
 Hollow
 
@@ -397,17 +397,18 @@ Hollow
 
 
 
-```{r eval=FALSE}
+```{r runthis10, eval=FALSE}
 cube2 <- cube.solid.random(p=4)$points %>% as_tibble()
+animate_xy(cube2, axes="bottomleft")
+```
+
+```{r eval=FALSE}
 render_gif(cube2, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "cube4d_2.gif", frames=100, width=400, height=400)
 
 ```
 
-```{r runthis10, eval=FALSE}
-animate_xy(cube2, axes="bottomleft")
-```
 
 Solid
 
@@ -420,17 +421,17 @@ Solid
 
 .left-plot[
 
-```{r eval=FALSE}
+```{r runthis11, eval=FALSE}
 torus <- torus(p = 4, n = 5000, radius=c(8, 4, 1))$points %>% as_tibble()
+animate_xy(torus, axes="bottomleft")
+```
 
+```{r eval=FALSE}
 render_gif(torus, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "torus4d.gif", frames=100, width=400, height=400)
 ```
 
-```{r runthis11, eval=FALSE}
-animate_xy(torus, axes="bottomleft")
-```
 
 Torus
 
@@ -440,17 +441,18 @@ Torus
 .right-plot[
 
 
+```{r runthis12, eval=FALSE}
+mobius <- mobius()$points %>% as_tibble()
+animate_xy(mobius, axes="bottomleft")
+```
 
 ```{r eval=FALSE}
-mobius <- mobius()$points %>% as_tibble()
 render_gif(mobius, grand_tour(), 
            display_xy(axes="bottomleft"), 
            "mobius.gif", frames=100, width=400, height=400)
 ```
 
-```{r runthis12, eval=FALSE}
-animate_xy(mobius, axes="bottomleft")
-```
+
 
 Mobius
 
