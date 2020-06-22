@@ -86,7 +86,10 @@ th, td { padding: 5px; }
 .blue { color: #72879C; }
 .yellow { color: #CFA118; }
 .green { color: #568000; }
+
 .large { font-size: 2em; }
+.small { font-size: 0.9em; }
+.tiny { font-size: 0.5em; }
 
 .left-code {
   color: #777;
@@ -94,8 +97,13 @@ th, td { padding: 5px; }
   height: 92%;
   float: left;
 }
+.left-plot {
+  width: 49%;
+  float: left;
+  padding-right: 1%;
+}
 .right-plot {
-  width: 50%;
+  width: 49%;
   float: right;
   padding-left: 1%;
 }
