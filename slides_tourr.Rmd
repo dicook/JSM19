@@ -41,6 +41,8 @@ background-size: 55%
 
 ### vISEC <br> June 22, 2020
 
+[https://dicook.org/files/vISEC2020/slides_tourr.html](https://dicook.org/files/vISEC2020/slides_tourr.html)
+
 <br>
 <br>
 <br>
@@ -133,6 +135,12 @@ class: inverse-nopad
 sessionInfo()
 ```
 ]
+
+---
+
+Grab the `runthis.R` file from [https://github.com/dicook/vISEC2020](https://github.com/dicook/vISEC2020)
+
+in the `skills_showcase` folder. (Or the `slides_tour.Rmd` for everything!)
 
 ---
 class: inverse middle center
@@ -846,6 +854,6 @@ Slides created via the R package [**xaringan**](https://github.com/yihui/xaringa
 
 The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
 
-Slides are available at [https://dicook.org/files/vISEC20/slides_tourr.html](https://dicook.org/files/vISEC20/tourr.html) and supporting files at [https://github.com/dicook/vISEC20](https://github.com/dicook/vISEC20).
+Slides are available at [https://dicook.org/files/vISEC20/slides_tourr.html](https://dicook.org/files/vISEC20/slides_tourr.html) and supporting files at [https://github.com/dicook/vISEC2020](https://github.com/dicook/vISEC2020).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
